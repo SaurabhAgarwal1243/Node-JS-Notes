@@ -1,0 +1,60 @@
+.box {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 30px;
+  background-color: #fc4f4f;
+  animation-name: bounce;
+  animation-iteration-count: 100;
+  animation-duration: 2s;
+
+}
+#one {
+  animation-timing-function: ease-in;
+}
+#two {
+  animation-timing-function: ease-out;
+}
+#three {
+  animation-timing-function: ease;
+}
+#four {
+  animation-timing-function: linear;
+}
+#five {
+  animation-timing-function: ease-in-out;
+}
+@keyframes bounce {
+  0%{
+    margin-left: 30px;
+  }
+  25%{
+    margin-left:  200px
+  }
+    100%{
+    margin-left: 30px
+  }
+}
+.x {
+}
+.button {
+  background-color: red;
+  width: 80px;
+  height: 35px;
+  display: block;
+  box-shadow: #A9A9A9 3px 3px 2px;
+  }
+#seven:hover #eight{
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+  /*box-shadow: #A9A9A9 6px 6px 2px;*/
+}
+#seven:active{
+  position: relative;
+  width: 75px;
+  height: 30px;
+  top: 4px;
+  left: 4px;
+  box-shadow: #A9A9A9 0px 0px;
+}

@@ -1,0 +1,77 @@
+body {
+ background-color:#DAF7A6 !important
+}
+.t {
+  background-color: white;
+ padding:15px;
+ font-size:24px;
+ text-align:right;
+ word-spacing:30px
+
+}
+.d {
+ background-image:url(http://midwaydentalcenter.com/wp-content/uploads/2014/06/cool-background-textures-kl_textures.jpg);
+ height:639px;
+ font-size:24px;
+ text-align:right;
+ color:white;
+}
+
+.photo {
+ float:left;
+ margin-left:100px;
+ margin-top:75px;
+ width:300px;
+ border:inset;
+ border-width:12px;
+ border-style: ridge;
+}
+.h {
+ padding-top:100px;
+ padding-bottom:30px;
+ color:red;
+ font-size:120px;
+ text-align:center;
+ font-family:"Palatino Linotype"
+}
+#m{
+  color: white;
+  font-size: 17px;
+}
+#quotes{
+  font-size: 20px;
+}
+.i {
+ height:150px;
+ padding-left:30px
+}
+.l {
+ padding-left:30px
+
+}
+.card-header {
+ text-align:center;
+ text-transform:uppercase;
+ font-weight:700;
+ font-size:18px;
+ text-shadow:2px 2px #a4a4a4
+}
+.row {
+ background-image: url(http://midwaydentalcenter.com/wp-content/uploads/2014/06/cool-background-textures-kl_textures.jpg);
+}
+.card-block {
+background-image: url(http://midwaydentalcenter.com/wp-content/uploads/2014/06/cool-background-textures-kl_textures.jpg);
+ color:white;
+}
+.row {
+ background-color:white;
+ padding-left:30px;
+ margin-left:-80px;
+ margin-right:-80px;
+ color:white;
+}
+.progress {
+ padding-top:15px;
+ padding-left:30px;
+ color:#fa5858
+}

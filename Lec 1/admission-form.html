@@ -1,0 +1,75 @@
+<html>
+<head>
+  <title>Admission Form</title>
+</head>
+<body>
+<a href="index.html">
+  <img src="cblogo.png" width="200" height="80"></a>
+  <h2 align="center">Coding Blocks</h2>
+  <form method="post" action="" id="myForm">
+    First Name:<br>
+    <input type="text" name="firstname"><br>
+    Last Name:<br>
+    <input type="text" name="lastname"><br>
+    <input type="radio" name="gender" value="male" checked> Male &nbsp;
+    <input type="radio" name="gender" value="female"> Female &nbsp;
+    <input type="radio" name="gender" value="other"> Other<br>
+    Date of Birth:<br>
+    <input type="Date" name="DOB"><br>
+    Phone Number:<br>
+    <input type="number" name="ZipCode"><br>
+    Email:<br>
+    <input type="email" name="Email"><br>
+    City:<br>
+    <input type="text" name="City"><br>
+    College/School:<br>
+    <input type="text" name="College/School"><br>
+    Course :
+     <input type="radio" name="course" value="btech"> <label for="btech"> B.Tech </label> |
+     <input type="radio" name="course" value="mtech"> <label for="mtech"> M.Tech </label> |
+     <input type="radio" name="course" value="bca" > <label for="bca"> B.C.A. </label> |
+     <input type="radio" name="course" value="mca" > <label for="mca"> M.C.A </label> |
+     <input type="radio" name="course" value="other"> <label for="other"> Other </label><br>
+     Discipline :
+     <input type="radio" name="stream" value="cs"> <label for="cse"> CS / IT / SE  &Tab;</label>
+     <input type="radio" name="stream" value="ece"> <label for="ece"> EE / ECE / EEE </label>
+     <input type="radio" name="stream" value="na"> <label for="na"> Other </label><br>
+     Current Education Status:<br>
+     <select name="currentYr">
+       <option value="0"> In School </option>
+       <option value="1"> 1st Year </option>
+       <option value="2"> 2nd Year </option>
+       <option value="3"> 3rd Year </option>
+       <option value="4"> 4th Year </option>
+       <option value="6"> Graduated </option>
+     </select><br>
+     Centre:<br>
+     <select name="centre">
+       <option value="dwarka"> Dwarka </option>
+       <option value="gurgaon"> Gurgaon </option>
+       <option value="pitampura"> Pitampura </option>
+       <option value="g_noida"> Greater Noida </option>
+     </select><br>
+     Courses Intrested In:<br>
+     <input type="checkbox" name="course" value="Launchpad (C++ Programming Fundamentals)"> <label for="Launchpad (C++ Programming Fundamentals)"> Launchpad (C++ Programming Fundamentals)</label><br>
+     <input type="checkbox" name="course" value="Crux (Java Programming Fundamentals)"> <label for="Crux (Java Programming Fundamentals)"> Crux (Java Programming Fundamentals)</label><br>
+     <input type="checkbox" name="course" value="Pandora (Android App Development)"> <label for="Pandora (Android App Development)"> Pandora (Android App Development)</label><br>
+     <input type="checkbox" name="course" value="Elixir (Web Development in Javascript)"> <label for="Elixir (Web Development in Javascript)"> Elixir (Web Development in Javascript)</label><br>
+     <input type="checkbox" name="course" value="Algo++ (Advanced DS and Algorithms)"> <label for="Algo++ (Advanced DS and Algorithms)"> Algo++ (Advanced DS and Algorithms)</label><br>
+     <input type="checkbox" name="course" value="Django (Web Development in Python)"> <label for="Django (Web Development in Python)"> Django (Web Development in Python)</label><br>
+     <input type="checkbox" name="course" value="Perceptron (Machine Learning)"> <label for="Perceptron (Machine Learning)"> Perceptron (Machine Learning)</label><br>
+     <input type="checkbox" name="course" value="Canvas (Game Development)"> <label for="Canvas (Game Development)"> Canvas (Game Development)</label><br>
+     <input type="checkbox" name="course" value="FinalStep (Interview Preparation)"> <label for="FinalStep (Interview Preparation)"> FinalStep (Interview Preparation)</label><br>
+     Message:<br>
+     <textarea name="message" rows="10" cols="50"></textarea><br><br>
+
+    <input type="submit" name="sign-up" onclick="alert('Thank You! We will be in touch with you shortly')" onclick="myfunction()" value="Submit">
+
+  </form>
+<script>
+function myfuncton(){
+  document.getElementById("myForm").reset();
+}
+</script>
+</body>
+</html>

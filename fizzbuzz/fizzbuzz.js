@@ -1,0 +1,28 @@
+/**
+ * Created by saurabhagarwal on 7/4/17.
+ */
+
+const fs = require("fs");
+
+fs.readFile('input.txt' , fizbuz(err,data)
+{
+    if(err){
+        return;
+    }
+    var N = parseInt(data);
+    for(var i=1; i<=N; i++){
+        if(i%3==0 && i%5==0){
+            console.log("fizzbuzz");
+        }
+        else if(i%3==0){
+            console.log("fizz");
+        }
+        else if(i%5==0){
+            console.log("buzz");
+        }
+        else{
+            console.log(i);
+        }
+    }
+
+};
